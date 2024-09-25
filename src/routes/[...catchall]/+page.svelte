@@ -1,22 +1,16 @@
 <script>
 	// You can add any additional logic here if needed
-	import '../../global.css';
 </script>
 
-<main class="main">
-	<section class="section">
-		<div class="container">
-			<h1 class="title">404 - Page Not Found</h1>
-			<p class="message">Sorry, the page you are looking for does not exist.</p>
-			<a href="/" class="home-link">Go to Home</a>
-		</div>
-	</section>
-</main>
+<section class="section">
+	<div class="container">
+		<h1 class="title">404 - Page Not Found</h1>
+		<p class="message">Sorry, the page you are looking for does not exist.</p>
+		<a href="/" class="home-link">Go to Home</a>
+	</div>
+</section>
 
 <style>
-	.main {
-		background-color: grey;
-	}
 	.section {
 		height: 100dvh;
 		display: flex;
